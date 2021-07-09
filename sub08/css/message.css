@@ -1,0 +1,98 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+/* 마진 패딩 초기화 */
+* { padding: 0; margin: 0; }
+/* 페이지 기본 글꼴과 크기 설정 */
+body{font-family: "맑은 고딕", "돋움" sans-serif;font-size: 14px; color: #333333;}
+img{border: 0;}
+ul{list-style-type: none;}
+/* <a> 태그 기본 설정 */
+a{display: block; text-decoration: none;}
+a:link{text-decoration:none; color: #222222; }
+a:hover{text-decoration:none; color: #222222; }
+a:visited{text-decoration:none; color: #222222; }
+a:active{text-decoration:none; color: #222222; }
+/* 상단 헤더 */
+#top {position: relative; width: 1000px; height: 80px; margin: 0 auto;}
+#top h1 {position: absolute; top: 20px; left: 40px; font-size: 20px;}
+#top h1 a{font-family: 'Henny Penny', cursive; color: #999999;}
+#top h2 {position: absolute; top: 27px; left: 168px; font-size: 16px;}
+#top h2 a{color: #999999;}
+#top #top_menu{float: right; margin: 30px 40px 0 0;}
+#top #top_menu li{display: inline;}
+#menu_bar {height: 48px; background-color: #443e58; font-size: 16px;}
+#menu_bar ul{width: 1000px; margin: 0 auto; padding: 14px 0 0 40px;}
+#menu_bar li{display: inline; margin-left: 90px; color: white; }
+#menu_bar a:link{color: white;}
+#menu_bar a:hover{color: white;}
+#menu_bar a:visited{color: white;}
+#menu_bar a:active{color: white;}
+/* 메인 이미지 */
+#main_img_bar {height: 215px;}
+/* 하단 푸터 */
+#footer_content{position: relative; width: 1000px; margin: 0 auto; color: #999999; font-size: 14px;}
+#footer_logo{position: absolute; top: 24px; left: 40px; font-size: 16px;}
+#footer_logo span{font-family: 'Henny Penny', cursive; color: #888888; font-weight: bold;}
+#download{position: absolute; top: 20px; left: 400px;}
+#author{position: absolute; top: 20px; right: 40px;}
+
+
+
+/* 쪽지 보내기(message_form.php) */
+.message_title{margin-top: 105px;width: 100%; height: 320px; background: url(../images/title.jpg) no-repeat; background-size: cover; text-align: center;}
+.message_title h3{padding-top: 90px;font-size: 55px; letter-spacing: -2.5px;}
+.message_title p{margin-top: 16px; font-size: 21px; letter-spacing: -0.5px;}
+.message_con{width: 1200px; height: 500px; margin: 80px auto; border: 2px solid #50bfd0; border-radius: 15px;}
+.top_buttons{display: block; float: left; width: 198px; height: 500px; background: #50bfd0; border-radius: 10px 0 0 10px; text-align: center; box-sizing: border-box}
+.top_buttons button{padding: 15px 0; color: #ffffff; background: #50bfd0; cursor: pointer; font-size: 14px;}
+#message_form_box{position: relative; float: left; width: 1000px; box-sizing: border-box;}
+#message_form_box h3{margin-top: 30px;	padding: 15px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#write_msg{padding: 0 20px; }
+#write_msg span{display: inline-block;}
+#write_msg .col1{width: 150px; }
+#write_msg li{padding: 12px; border-bottom: solid 1px #dddddd; }
+#write_msg input{width: 600px; height: 25px; border: 1px solid #999999;}
+#write_msg textarea{width: 600px;	height: 150px; }
+#write_msg #text_area{position: relative;	height: 158px;}
+#write_msg #text_area .col1{position: absolute; top: 10px;}
+#write_msg #text_area .col2{position: absolute; left: 166px;  border: 1px solid #999999;}
+#write_msg button{margin: 15px 0 30px 680px; padding: 5px 23px; cursor: pointer;}
+
+/* 수신/송신 쪽지함(message_form.php) */
+#message_box{width: 1200px; height: 500px; margin: 80px auto; border: 2px solid #50bfd0; border-radius: 15px;}
+#message{width: 1000px; float: left;}
+#message h4{width: 177px; text-align: left; margin: 10px 0 0 25px; padding-bottom: 3px; border-bottom: 3px solid #50bfd0; font-size: 16px;}
+#message li {padding: 10px; border-bottom: solid 1px #dddddd;}
+#message li:nth-child(1) {font-weight: bold;}
+#message span {display: inline-block; text-align: center;}
+#message .title {font-weight: bold;}
+#message .col1 {width: 80px;}
+#message .col2 {width: 610px; text-align: left;}
+#message .col3 {width: 120px;}
+#message .col4 {width: 150px;}
+#page_num {float:left; width: 1000px; text-align: center;	margin: 8px 0}
+#page_num li {display: inline;}
+#page_num li a{display: inline-block;}
+#message_box .buttons {display: block; float: left; width: 198px; height: 500px; background: #50bfd0; border-radius: 10px 0 0 10px; text-align: center; box-sizing: border-box}
+#message_box .buttons button{padding: 15px 0; color: #ffffff; background: #50bfd0; cursor: pointer; font-size: 14px;}
+
+
+/* 쪽지함 보기(view_msg.php) */
+#message_view_box {width: 1200px; height: 500px; margin: 80px auto; border: 2px solid #50bfd0; border-radius: 15px;}
+#message_view_box h3{width: 177px; text-align: left; margin: 10px 0 0 25px; padding-bottom: 3px; border-bottom: 3px solid #50bfd0;}
+#message_view_box .buttons {display: block; float: left; width: 198px; height: 500px; background: #50bfd0; border-radius: 10px 0 0 10px; text-align: center; box-sizing: border-box}
+#message_view_box .buttons button{padding: 15px 0; color: #ffffff; background: #50bfd0; cursor: pointer; font-size: 14px;}
+#message_view_box .title {width: 216px; margin-top: 10px; margin-left: 25px; padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#view_content{width: 1000px; float: left;}
+#view_content li:nth-child(2) {padding: 15px 25px; border-bottom: solid 1px #aaaaaa; }
+#view_content .col2 {float: right; }
+#view_content li:nth-child(3) {padding: 15px 25px 80px 25px; border-bottom: solid 1px #cccccc; }
+#view_content li:nth-child(4) button {padding: 5px 20px; margin: 15px 0 40px 720px; cursor: pointer; }
+
+/* 답변 쪽찌(response_box) */
+#message_response_box{width: 1200px; height: 500px; margin: 80px auto; border: 2px solid #50bfd0; border-radius: 15px;}
+#message_response_box .buttons{display: block; float: left; width: 198px; height: 500px; background: #50bfd0; border-radius: 10px 0 0 10px; text-align: center; box-sizing: border-box}
+#message_response_box .buttons button{padding: 15px 0; color: #ffffff; background: #50bfd0; cursor: pointer; font-size: 14px;}
+#message_response_box form{width: 1000px; float: left;}
+#message_response_box form h3{width: 127px; text-align: left; margin: 10px 0 0 25px; padding-bottom: 3px; border-bottom: 3px solid #50bfd0;}
+
+#footerWrap{border-top: 1px solid #e6e6e6;}

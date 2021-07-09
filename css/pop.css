@@ -1,0 +1,4 @@
+﻿*{margin: 0; padding: 0; border: 0;}
+#eventSection{width: 500px; height: 600px;}
+h1{text-indent: -33333em; background: url(../images/event_popup.png) no-repeat 0 0; width: 500px; height: 500px;}
+input{float: right; margin: 10px; font-size: 18px; padding: 5px 8px; background: #4ed5d1; border-radius: 3px; color: #ffffff; cursor: pointer;}

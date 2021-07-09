@@ -1,0 +1,83 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+/* 마진 패딩 초기화 */
+* { padding: 0; margin: 0; }
+/* 페이지 기본 글꼴과 크기 설정 */
+body{font-family: "맑은 고딕", "돋움" sans-serif;font-size: 14px; color: #333333;}
+img{border: 0;}
+ul{list-style-type: none;}
+/* <a> 태그 기본 설정 */
+a{display: block; text-decoration: none;}
+a:link{text-decoration:none; color: #222222; }
+a:hover{text-decoration:none; color: #222222; }
+a:visited{text-decoration:none; color: #222222; }
+a:active{text-decoration:none; color: #222222; }
+/* 상단 헤더 */
+#top {position: relative; width: 1000px; height: 80px; margin: 0 auto;}
+#top h1 {position: absolute; top: 20px; left: 40px; font-size: 20px;}
+#top h1 a{font-family: 'Henny Penny', cursive; color: #999999;}
+#top h2 {position: absolute; top: 27px; left: 168px; font-size: 16px;}
+#top h2 a{color: #999999;}
+#top #top_menu{float: right; margin: 30px 40px 0 0;}
+#top #top_menu li{display: inline;}
+#menu_bar {height: 48px; background-color: #443e58; font-size: 16px;}
+#menu_bar ul{width: 1000px; margin: 0 auto; padding: 14px 0 0 40px;}
+#menu_bar li{display: inline; margin-left: 90px; color: white; }
+#menu_bar a:link{color: white;}
+#menu_bar a:hover{color: white;}
+#menu_bar a:visited{color: white;}
+#menu_bar a:active{color: white;}
+/* 메인 이미지 */
+#main_img_bar {height: 215px;}
+/* 하단 푸터 */
+#footer_content{position: relative; width: 1000px; margin: 0 auto; color: #999999; font-size: 14px;}
+#footer_logo{position: absolute; top: 24px; left: 40px; font-size: 16px;}
+#footer_logo span{font-family: 'Henny Penny', cursive; color: #888888; font-weight: bold;}
+#download{position: absolute; top: 20px; left: 400px;}
+#author{position: absolute; top: 20px; right: 40px;}
+
+
+
+/* 게시판 목록(board_form.php) */
+.board_title{margin-top: 105px;width: 100%; height: 320px; background: url(../images/content1.jpg) no-repeat; background-size: cover; text-align: center;}
+.board_title h3{padding-top: 90px;font-size: 55px; letter-spacing: -2.5px;}
+.board_title p{margin-top: 16px; font-size: 21px; letter-spacing: -0.5px;}
+.board_con{width: 1200px; height: 500px; margin: 80px auto; border: 2px solid #50bfd0; border-radius: 15px;}
+.top_buttons{display: block; float: left; width: 198px; height: 500px; background: #50bfd0; border-radius: 10px 0 0 10px; text-align: center; box-sizing: border-box}
+.top_buttons button{padding: 15px 0; color: #ffffff; background: #50bfd0; cursor: pointer; font-size: 20px;}
+#board_box{position: relative; float: left; width: 1000px; box-sizing: border-box;}
+#board_box h3{margin-top: 30px;	padding: 15px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#board_form{padding: 0 20px; }
+#board_form span{display: inline-block;}
+#board_form .col1{width: 150px; }
+#board_form li{padding: 12px; border-bottom: solid 1px #dddddd; }
+#board_form input{width: 600px; height: 25px; border: 1px solid #999999;}
+#board_form textarea{width: 600px;	height: 150px; }
+#board_form #text_area{position: relative;	height: 158px;}
+#board_form #text_area .col1{position: absolute; top: 10px;}
+#board_form #text_area .col2{position: absolute; left: 166px;  border: 1px solid #999999;}
+#board_form button{margin: 15px 0 30px 680px; padding: 5px 23px; cursor: pointer;}
+.buttons{float: right; margin: 15px 30px 0 0;}
+.buttons button{width: 150px; height: 50px; border-radius: 10px; background: #05a4bc; color: #ffffff; font-size: 17px; cursor: pointer;}
+
+/* 수신/송신 쪽지함(message_form.php) */
+#board_modify_box{width: 1200px; height: 500px; margin: 80px auto; border: 2px solid #50bfd0; border-radius: 15px;}
+#board_modify_box form{width: 1000px; float: left;}
+#board_modify_box form h3{width: 128px; text-align: left; margin: 10px 0 0 25px; padding-bottom: 3px; border-bottom: 3px solid #50bfd0;}
+
+
+
+/* 게시판 내용 보기(board_view.php) */
+#board_view_box {width: 1200px; height: 500px; margin: 80px auto; border: 2px solid #50bfd0; border-radius: 15px;}
+#board_view_box h3{width: 177px; text-align: left; margin: 10px 0 0 25px; padding-bottom: 3px; border-bottom: 3px solid #50bfd0;}
+#board_view_box .buttons {display: block; float: left; width: 198px; height: 500px; background: #50bfd0; border-radius: 10px 0 0 10px; text-align: center; box-sizing: border-box}
+#board_view_box .buttons button{padding: 15px 0; color: #ffffff; background: #50bfd0; cursor: pointer; font-size: 14px;}
+#board_content h4{width: 216px; margin-top: 10px; margin-left: 25px; padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#board_content{width: 1000px; float: left;}
+#board_content li:nth-child(2) {padding: 15px 25px; border-bottom: solid 1px #aaaaaa; }
+#board_content .col2 {float: right; }
+#board_content li:nth-child(3) {padding: 15px 25px 80px 25px; border-bottom: solid 1px #cccccc; }
+#board_content li:nth-child(4) button {padding: 5px 20px; margin: 15px 0 40px 720px; cursor: pointer; }
+
+
+
+#footerWrap{border-top: 1px solid #e6e6e6;}

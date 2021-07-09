@@ -1,0 +1,154 @@
+﻿*{margin:0; padding:0; border:0;}
+html{overflow-y:scroll; }
+img{border: 0;}
+ul, li{list-style:none;}
+a{text-decoration:none; display:block;}
+.cf:after{content:''; display:block; clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.cb{clear:both;}
+
+body{font-family: '맑은 고딕', Malgun Gothic, dotum, "돋움", Arial;}
+
+#contentsWrap{width: 100%;}
+#mainContents{width: 1420px; height: 1949px; margin: 105px auto 0;}
+
+	.homeIcon{width: 100%; height: 70px; padding-top: 43px; background: url(../images/homeicon_line.gif) repeat-x 0 100%;}
+	.homeIcon h3{width: 85px; height: 70px; background: url(../images/homeicon_left.png) no-repeat 0 0;}
+	.homeIcon a{height: 70px; background: url(../images/homeicon_right.png) no-repeat 100% 0;}
+	.homeIcon span{display: block; height: 52px; background: url(../images/homeicon_icon.png) no-repeat 27px 25px; text-indent: -33333em;}
+	
+	
+	#sideNav{width: 240px; height: 1835px; margin-right: 35px;}
+		.navgation{padding-top: 45px;}
+		.navgation li{ font-size: 26px; letter-spacing: -0.5px; font-weight: bold; border-bottom: 2px solid #cdcdcd; padding-bottom: 22px; color: #333333;}
+		.navgation li.navga{padding-top: 18px;}
+		.navgation li.font{font-size: 17px; font-weight: normal;}
+		.navgation li a:hover{text-decoration: underline;}
+		.navgation li.font.on a.hov{color: #df2428; text-decoration: underline;}
+		.navgation li a.hov:hover{color: #df2428; text-decoration: underline;}
+		.inNavi{padding-top: 20px;}
+		.inNavi li{margin-bottom: 7px; border: 0; padding: 0;}
+		.inNavi li a{font-size: 17px; font-weight: normal;}
+		.inNavimore{display: none; padding: 7px 0 0 20px; color: #666666;}
+		.navgation li.on .inNavimore{display: block;}
+		
+	.sidezone{width: 130px; height: 330px;}
+	.innerzone{float: right; width: 105px; margin-top: 58px;}
+	.innerzone ul{width: 100%; margin-top: 15px;}
+	.innerzone img{vertical-align:top; width: 105px;}
+	.marking{float: right; margin-top: 20px; padding-top: 52px; background: url(../images/sidezon_marking_cancel.png) no-repeat 50% 10%; cursor: pointer;}
+	.marking .text{display: block; width: 100px; font-weight: bold; font-size: 16px; line-height: 14px; color: #666666; text-align: center; letter-spacing: -2px; margin-top: 25px;}
+	
+	#contents{width: 1015px; padding-top: 53px;}
+	#myBannar{width: 100%; height: 275px; border: 1px solid #cccccc; border-radius: 5px;}
+	.name{float: left; display: block; padding-left: 40px; font-weight: normal; font-size: 25px; color: #333333; line-height: 79px; letter-spacing: -1.3px;}
+	.serlist{float: right; padding: 29px 39px 0 0;}
+	.serlist li{float: left; margin-left: 12px; padding-left: 12px; letter-spacing: -1.5px; background: url(../images/mybanner_bg_service_line.png) no-repeat 0 50%;}
+	.serlist li.first{background: none;}
+	.serlist li a{font-size: 18px; color: #666666;}
+	.serlist li a.email{height: 30px; padding-left: 38px; background: url(../images/myBanner_email.png) no-repeat 0 0;}
+	.serlist li a.paper{height: 30px; padding-left: 38px; background: url(../images/myBanner_paper.png) no-repeat 0 0;}
+	.mybill{clear: both; width: 936px; height: 172px; border-top: 1px solid #cccccc; padding: 23px 39px 0;}
+	.bill{float: left; width: 432px; height: 146px; margin-right: 39px; padding-right: 36px; border-right: 2px solid #eaeaea;}
+	.bill .title{display: inline-block; font-size: 27px; line-height: 29px; color: #333333; letter-spacing: -4px; font-weight: normal;}
+	.bill .infoicon{display: inline-block;}
+	.bill .infoicon img{width: 19px; margin-left: 4px;}
+	.bill .date{float: right; width: 250px; font-size: 19px; color: #666666; text-align: right; letter-spacing: -1px; padding-top: 5px;}
+	.bill .pay{display: block; margin-top: 12px; font-family: Arial; font-size: 54px; line-height: 58px; font-weight: bold; color: #ed1c24; text-align: right;letter-spacing: -1.5px;}
+	.bill .pay .won{margin-left: -11px; font-family: '맑은 고딕', Malgun Gothic, dotum, '돋움', Arial; font-size: 26px; color: #333333; letter-spacing: -0.05em; vertical-align: 4px;}
+	.bill .btn{margin-top: 12px; text-align: right; border-radius: 2px; display: inline-block; box-sizing: border-box;}
+	.bill .btn a{display: inline-block; font-size: 18px; line-height: 100%; color: #333333; border: 1px solid #cccccc; border-radius: 5px; padding: 6px 12px 8px 6px;}
+	.bill .btn a:hover{color: #df2428; border: 1px solid #df2428; border-radius: 5px;}
+	.bill .btn a span{letter-spacing: -1px; padding-left: 6px;}
+	.memship{float: left; width: 425px; height: 146px;}
+	.memship .title{display: inline-block; font-size: 27px; line-height: 21px; color: #333333; letter-spacing: -4px; font-weight: normal;}
+	.memship .title{display: inline-block; font-size: 27px; line-height: 29px; color: #333333; letter-spacing: -4px; font-weight: normal;}
+	.memship .title strong{display: inline-block; width: 89px; height: 30px; padding-left: 2px; font-family: Arial; font-weight: bold; font-size: 22px; color: #ed1c24; text-align: center; vertical-align: 1px; background: url(../images/myBanner_bg_membership.png) no-repeat 4px 0; letter-spacing: -0.05em;}
+	.memship .pay{display: inline-block; margin-top: 12px; font-family: Arial; font-size: 54px; line-height: 58px; font-weight: bold; color: #ed1c24; text-align: right;letter-spacing: -1.5px; margin: 12px 3px 0 119px;}
+	.memship .point{margin-left: -11px; font-family: '맑은 고딕', Malgun Gothic, dotum, '돋움', Arial; font-size: 26px; color: #333333; letter-spacing: -0.05em; vertical-align: 4px; }
+	.memship a{display: inline-block;}
+	.memship a img{width: 35px;}
+	.memship .btn{margin-top: 12px; text-align: right; border-radius: 2px; display: inline-block; box-sizing: border-box;}
+	.memship .btn a{display: inline-block; font-size: 18px; line-height: 100%; color: #333333; border: 1px solid #cccccc; border-radius: 5px; padding: 6px 12px 8px 6px;}
+	.memship .btn a:hover{color: #df2428; border: 1px solid #df2428; border-radius: 5px;}
+	.memship .btn span{letter-spacing: -1px; padding-left: 6px;}
+	
+	#machBanner{width: 100%; height: 163px;}
+		.mainmach{margin-top: 19px; padding: 33px 41px; background: #f0f0f0;}
+		.mainmach .topname{display: block; font-size: 18px; padding: 4px 0 5px 40px; background: url(../images/zoomMenu_bg_main_star.png) no-repeat 0 0; font-weight: normal;}
+		.mainmach .topname .point{color: #000000; padding-right: 23px;}
+		.mainmach .machButton{margin-top: 15px; overflow: hidden;}
+		.mainmach .machButton li{float: left; width: 33%; padding: 0 5px; box-sizing: border-box; text-align: center;}
+		.mainmach .machButton li.plz{padding-left: 0; width: 34%;}
+		.mainmach .machButton li.pr2{padding-right: 2px;}
+		.mainmach .machButton li a{display: inline-block; padding: 0 13px; height: 46px; border: 1px solid #cccccc; letter-spacing: -0.025em; background: #ffffff; border-radius: 5px; width: 100%; padding-right: 0; padding-left: 0; line-height: 45px; font-size: 20px;}
+		.mainmach .machButton li a:hover{border-color: #df2428; color: #df2428;}
+			
+	#mainBill{width: 100%; height: auto;}
+		.userBillList>div{margin-top: 12px;}
+		.userBillList .billhead{width: 1015px; height: 113px; padding: 32px 0 0 0;}
+		.userBillList .billhead1{background: url(../images/mainBill_bg_item_type1.png) no-repeat 0 0;}
+		.userBillList .billhead2{margin-top: 13px; background: url(../images/mainBill_bg_item_type2.png) no-repeat 0 0;}
+		.billhead h4{float: left; width: 132px; height: 100%; text-indent: -33333em;}
+		.billhead h4.mobile{background: url(../images/mainBill_bg_mobile.png) no-repeat 43px 8px;}
+		.billhead h4.internet{background: url(../images/mainBill_bg_internet.png) no-repeat 30px 8px;}
+		.billhead h4.tv{background: url(../images/mainBill_bg_tv.png) no-repeat 30px 8px;}
+		.billhead h4.common{background: url(../images/mainBill_bg_common.png) no-repeat 26px 8px;}
+		.billhead .description{display: inline-block; padding-left: 36px; font-size: 24px; color: #333333; letter-spacing: -1px;}
+		.billhead .billleft{float: left; width: 505px; height: 100%;}
+		.billhead .billname{display: block; margin-top: 1px; font-size: 25px; color: #333333; padding-left: 36px; letter-spacing: -1.5px;}
+		.billhead .billright{float: left; margin-top: 2px;}
+		.billhead .moneytit{float: left; font-size: 17px; color: #666666; padding-left: 72px;}
+		.billhead .money{float: left; clear: both; font-weight: 400; font-size: 40px; color: #ed1c24; letter-spacing: -1px;}
+		.billhead .money .won{margin-left: -9px; font-size: 24px; color: #333333; vertical-align: 1px;}
+		.billhead .button{float: left; padding-bottom: 5px;}
+		.billhead .button a{display: inline-block; padding-right: 2px; font-size: 13px; line-height: 100%; color: #333333;}
+		.billhead .button a.search{margin-left: 28px;}
+		.billhead .button a span{display: inline-block; padding: 7px 10px 12px 8px; border: 1px solid #cccccc; border-radius: 3px; font-size: 18px; font-family: '맑은 고딕', Malgun Gothic, dotum, '돋움', Arial;}
+		.billhead .button a span:hover{border-color: #df2428; color: #df2428;}
+		.billhead>.billright>a{display: block; float: left; margin: 11px 0 0 26px; width: 25px; height: 13px; background: url(../images/mainBill_bg_item_down.png) no-repeat 0 0; text-indent: -33333em;}
+		.billsebu .billright{padding-left: 20px;}
+		.billsebu .billright .moneytit{padding-left: 52px;}
+		.billlast .billright{padding: 27px 0 0 289px;}
+		
+	.notice{width: 1015px; height: 91px; margin-top: 39px; background: url(../images/notice_bg.gif) no-repeat;}
+	.notice h3{display: inline-block; padding: 27px 15px 0 40px; font-size: 28px; color: #333333; line-height: 100%; letter-spacing: -1.5px; font-weight: 400;}
+	.notice a{display: inline-block; font-size: 18px;}
+	.notice a:hover{color: #df2428; text-decoration: underline;}
+	.notice .more{float: right; display: block; margin: 30px 42px 0 0; padding-right: 10px; font-size: 19px; background: url(../images/notice_bg_more_view.png) no-repeat right 9px;}
+	
+	.custumInf{width: 1011px; height: 144px; margin: 36px 0 66px 0; border: 1px solid #cccccc;}
+	.custumInf .custumimg{float: left; width: 196px; height: 100%; background: url(../images/custumInf_bg_personal.png) no-repeat 45px 32px;}
+	.custumInf .custumnotice{float: left; padding-top: 31px;}
+	.custumInf .custinfname{font-size: 21px; line-height: 48px; letter-spacing: -1.4px;}
+	.custumInf .desc{font-size: 20px; letter-spacing: -1.6px;}
+	.custumInf > a{display: inline-block; float: right; margin: 53px 46px 0 0; padding: 0 10px; height: 38px; border: 1px solid #cccccc; font-size: 18px; line-height: 34px; letter-spacing: -1px; background: #ffffff; border-radius: 5px;}
+	
+	
+	#serviceNotice{width: 100%; height: 263px; background: #f0f0f0;}
+	.innerNotice{width: 1300px; margin: 0 auto; padding: 39px 0;}
+	.innerNotice .desc{display: inline-block; padding-left: 26px; font-weight: bold; font-size: 27px; letter-spacing: -1px; color: #333333;}
+	.innerNotice .desc span{margin-left: 16px; font-weight: normal; font-size: 17px; letter-spacing: -1.3px;}
+	.innerNotice>a{display: block; float: right; padding-right: 10px; background: url(../images/serviceNotice_bg_footer_arrow.png) no-repeat 100% 8px; font-size: 19px; margin: 8px 45px 0 0;}
+	.innerNotice>a:hover{color: #df2428; text-decoration: underline;}
+	.innerNotice .noticelist{padding: 34px 0 2px; overflow: hidden;}
+	.innerNotice .noticelist li:hover a{text-decoration: underline;}
+	.innerNotice .noticelist li{float: left; margin: 0 7px 0 12px; background-position: 50% 0; background-repeat: no-repeat;}
+	.innerNotice .noticelist li.img1{margin-left: 53px; background-image: url(../images/serviceNotice_icon_footer_1.png);}
+	.innerNotice .noticelist li.img2{background-image: url(../images/serviceNotice_icon_footer_2.png);}
+	.innerNotice .noticelist li.img3{background-image: url(../images/serviceNotice_icon_footer_3.png);}
+	.innerNotice .noticelist li.img4{background-image: url(../images/serviceNotice_icon_footer_4.png);}
+	.innerNotice .noticelist li.img5{background-image: url(../images/serviceNotice_icon_footer_5.png);}
+	.innerNotice .noticelist li.img6{background-image: url(../images/serviceNotice_icon_footer_6.png);}
+	.innerNotice .noticelist li.img7{background-image: url(../images/serviceNotice_icon_footer_7.png);}
+	.innerNotice .noticelist li a{display: block; width: 157px; padding-top: 80px; font-size: 19px; color: #333333; text-align: center; letter-spacing: -0.5px;}
+	
+	#operBannar{width: 100%; height: 25px; border-top: 1px solid #e6e6e6; border-bottom: 1px solid #e6e6e6; padding: 15px 0 14px; font-size: 17px;  letter-spacing: -1.2px; color: #000000;}
+	#operBannar .inner{width: 1420px; margin: 0 auto;}
+	#operBannar .bannertit{float: left;}
+	#operBannar .operatorinfolist{float: left;}
+	#operBannar .operatorinfolist li{float: left; margin-left: 39px; padding-left: 38px; border-left: 2px solid #000000;}
+	#operBannar .operatorinfolist li.first{border: 0; margin-left: 39px;}
+	
+	

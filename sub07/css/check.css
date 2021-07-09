@@ -1,0 +1,4 @@
+﻿body{border: 2px solid #484848; border-radius: 10px;}
+h3{display: block; float: left; margin-left: 10px; padding-bottom:  5px; border-bottom:  solid 5px #d71826;}
+li{display: block; clear: both; margin: 10px;}
+#close {margin: 0 0 10px 170px;}

@@ -1,0 +1,54 @@
+﻿*{margin:0; padding:0; border: 0;}
+html{overflow-y:scroll; }
+img{border: 0;}
+ul, li{list-style:none;}
+a{text-decoration:none; display:block;}
+.cf:after{content:''; display:block; clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.cb{clear:both;}
+.gray{color: #cccccc;}
+
+body{font-family: '맑은 고딕', Malgun Gothic, dotum, "돋움", Arial;}
+
+#contentsWrap{width: 100%;}
+#mainContents{width: 100%; margin-top: 105px; padding-bottom: 50px; border: 1px solid #e6e6e6;}
+	#mainTitle{width: 100%; height: 328px; background: url(../images/content1_bg.jpg) no-repeat 0 0; background-size: cover;}
+	#mainTitle .titleinner{width: 1420px; height: 100%; margin: 0 auto;}
+	#mainTitle .titleinner .location{padding-top: 23px; text-align: right;}
+	#mainTitle .titleinner .location span{display: inline-block; margin-left: 8px; padding-left: 20px; font-size: 16px; color: #000000; background-image: url(../images/title_location_arrow.png); background-repeat: no-repeat; background-position: 0 7px;}
+	#mainTitle .titleinner .location span.mp0{margin: 0; padding: 0; background: none;}
+	#mainTitle .titleinner .location span a{color: #666666; vertical-align: sub;}
+	#mainTitle .titleinner .location span a.home{display: inline-block; width: 25px; height: 21px; margin: 0; text-align: left; text-indent: -9999px; background-image: url(../images/title_location_home.png); background-repeat: no-repeat; background-position: 0 0;}
+	#mainTitle .titleinner .hgroup{padding-top: 60px; text-align: center;}
+	#mainTitle .titleinner .hgroup h3{font-weight: normal; color: #000000; min-height: 58px; font-family: 'Malgun Gothic', '맑은 고딕', 'MG', sans-serif; font-size: 59px;}
+	
+	
+	#Qsearch{width: 1420px; height: 172px; margin: 0 auto;}
+		#search_wrap{width: 815px; height: auto; margin: 0 auto; padding-top: 79px;}
+		#search_wrap fieldset{position: relative; z-index: 1;}
+		#search_wrap button{position: absolute; background: url(../images/btn-search.png) no-repeat; top: 27px; right: 20px; width: 40px; height: 40px;}
+		#search_wrap input{width: 815px; height: 92px; border: 7px solid #d71826; border-radius: 60px; box-sizing: border-box; font-size: 31px; padding-left: 30px; text-align: center;}
+		
+	#accordionSection{width: 1420px; height: 1788px; margin: 0 auto;}
+		#accordionSection .topTen{width: 1420px; height: 128px; line-height: 128px; text-align: center; font-size: 2.5em; border-bottom: 3px solid #555555;}
+		#accordionSection > div > div.title{width: 1420px; text-align: justify; line-height: 50px;}
+		#accordionSection .content{height: auto; width: 96%; text-align: left; padding: 2%; background-color: #f9f9f9;}
+		#accordionSection .content.closed{height: auto; width: 96%; text-align: left; padding: 2%; background-color: #f9f9f9; display: none;}
+		#accordionSection div div {font-size: 25px; color: #222222; line-height: 50px; letter-spacing: -2.1px; height: 154px; float: left; border-bottom: 1px solid #d0cfd5; text-align: left;}
+		#accordionSection button.closed{background-position: 0px -16px;}
+		#accordionSection div span{cursor: pointer; line-height: 50px; height: 40px; display: block; white-space: nowrap;}
+		#accordionSection div span{font-size: 21px; color: #666666;}
+		#accordionSection div p img{vertical-align: sub;}
+		#accordionSection div .sub{padding: 30px 0 0 40px;}
+		#accordionSection div .pre{white-space: pre-line;}
+		#accordionSection div .smalltitle{padding: 0 0 0 40px; font-size: 25px; color: #da2c38;}
+		#accordionSection div .smalltitle.closed{color: #222222;}
+		#accordionSection div button{display: block; background-image: url(../images/icon-arrow-accordion.png); background-repeat: no-repeat; background-color: #ffffff; width: 32px; height: 16px; margin: 0 30px 0 0; border: none; cursor: pointer;}
+	.Qservice{width: 1420px; height: 427px; margin: 55px auto 0;}
+		.Qservice > div{float: left; width: 694px; height: 100%; text-align: center; color: #222222; border: 1px solid #666666; padding: 0;}
+		.Qservice .title{font-size: 31px; line-height: 42px; font-weight: bold; padding-top: 182px; color: #222222;}
+		.Qservice .desc{font-size: 23px; padding-top: 9px;}
+		.Qservice a{margin-top: 15px; color: #222222; border: 2px solid #333333; text-align: center; border-radius: 5px; display: inline-block; line-height: 40px; height: 40px; padding: 0 25px; font-size: 15px;}
+		.Qservice .leftbox{background: url(../images/sevice_left.png) no-repeat center 51px; }
+		.Qservice .rightbox{background: url(../images/sevice_right.png) no-repeat center 39px; margin-left: 28px;}
